@@ -9,9 +9,10 @@ th{
 	text-decoration: underline;
 }
 .media-icons{
-	position: relative;
-	right: 0px;
-	top: 0px;
+	display: flex;
+	flex-direction: row-reverse;
+	gap: 3px;
+	padding-right: 25px;
 }
 #table{
 	width: 700px;
