@@ -8,11 +8,16 @@
 th{
 	text-decoration: underline;
 }
-.media-icons{
+.top{
 	display: flex;
-	flex-direction: row-reverse;
-	gap: 3px;
-	padding-right: 25px;
+	gap: 13px;
+	padding: 25px;
+}
+.media-icons{
+	position: relative;
+	top: 0px;
+	right: -410px;
+	font-size: 20px
 }
 #table{
 	width: 700px;
@@ -25,9 +30,6 @@ th, td{
 }
 .logo_name{
 	font-size: 30px;
-}
-.logo-details{
-	padding: 20px;
 }
 a{
 	text-decoration: none;
