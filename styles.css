@@ -14,10 +14,11 @@ th{
 	padding: 25px;
 }
 .media-icons{
+	display: flex;
 	position: relative;
 	top: 0px;
 	right: -410px;
-	font-size: 20px
+	font-size: 20px;
 }
 #table{
 	width: 700px;
