@@ -4,6 +4,7 @@
 	height: 300px;
 	color: white;
 	font-family: arial; 
+	display : flex;
 }
 th{
 	text-decoration: underline;
@@ -20,7 +21,8 @@ th{
 	right: -410px;
 	font-size: 20px;
 }
-#table{
+.link-boxes{
+	flex-direction: column-reverse;
 	width: 700px;
 	margin-top: 40px;
 	margin-left: 20px;
