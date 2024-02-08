@@ -1,9 +1,15 @@
+body{
+		font-family: 'Open Sans', sans-serif;
+}
+
+
+
 .content{
 	background-color: black;
 	width: 830px;
 	height: 330px;
     color: white;
-	font-family: 'Open Sans', sans-serif;
+
 }
 .media-icons>i{
 	padding: 5px;
@@ -23,6 +29,7 @@
 
 .media-icons{
 	display: flex;
+	font-size: 30px;
 }
 .link-boxes{
 	display: flex;
