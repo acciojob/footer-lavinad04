@@ -1,7 +1,7 @@
 .content{
 	background-color: black;
-	width: 690px;
-	height: 300px;
+	width: 830px;
+	height: 330px;
     color: white;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -23,7 +23,7 @@
 }
 .link-boxes{
 	display: flex;
-	width: 700px;
+	width: 800px;
 	gap: 40px;
 	line-height: 30px;
     padding: 20px;
@@ -36,14 +36,22 @@ a{
 	color: white;
 	text-decoration-line: none;
 }
-
 .bottom-details{
-	width: 690px;
+	width: 830px;
 	height: 60px;
 	background-color: #2c303a;
 	color: white;
 	display: flex;
 	justify-content: center;
-	gap: 350px;
+	gap: 420px;
 	
+}
+b::before{
+	content: '';
+	color: white;
+	width: 30px;
+	height: 2px;
+	position: absolute;
+	background-color: white;
+	top: 150px;	
 }
